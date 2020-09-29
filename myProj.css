@@ -1,0 +1,747 @@
+form{
+	font-size: 30px;
+	color:white;
+}
+button {
+  transition-duration: 0.4s;
+  font-size: 30px;
+  opacity: 0.5;
+}
+
+button:hover {
+  background-color: #e27812; /* Green */
+  color: white;
+  font-size: 40px;
+}
+
+.btn-group .button:hover {
+  background-color: #3e8e41;
+}
+#c101 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c101 .text1 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c101 .text1 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c101:hover .text1 {
+  visibility: visible;
+}
+
+
+#c102 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c102 .text2 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c102 .text2 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c102:hover .text2 {
+  visibility: visible;
+}
+
+
+
+
+#c103 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c103 .text3 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c103 .text3 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c103:hover .text3 {
+  visibility: visible;
+}
+
+
+#c104 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c104 .text4 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c104 .text4 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c104:hover .text4 {
+  visibility: visible;
+}
+
+#c204 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c204 .text14 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c204 .text14 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c204:hover .text14 {
+  visibility: visible;
+}
+
+#c203 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c203 .text13 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c203 .text13 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c203:hover .text13 {
+  visibility: visible;
+}
+
+
+#c202 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c202 .text12 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c202 .text12 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c202:hover .text12 {
+  visibility: visible;
+}
+
+
+#c201 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c201 .text11 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c201 .text11 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c201:hover .text11 {
+  visibility: visible;
+}
+
+
+#c304 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c304 .text114 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c304 .text114 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c304:hover .text114 {
+  visibility: visible;
+}
+
+#c303 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c303 .text113 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c303 .text113 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c303:hover .text113 {
+  visibility: visible;
+}
+
+
+#c302 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c302 .text112 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c302 .text112 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c302:hover .text112 {
+  visibility: visible;
+}
+
+
+#c301 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c301 .text111 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c301 .text111 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c301:hover .text111 {
+  visibility: visible;
+}
+
+
+
+#c404 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c404 .text1114 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c404 .text1114 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c404:hover .text1114 {
+  visibility: visible;
+}
+
+#c403 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c403 .text1113 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c403 .text1113 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c403:hover .text1113 {
+  visibility: visible;
+}
+
+
+#c402 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c402 .text1112 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c402 .text1112 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c402:hover .text1112 {
+  visibility: visible;
+}
+
+
+#c401 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+}
+
+#c401 .text1111 {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+#c401 .text1111 :after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: white transparent transparent transparent;
+}
+
+#c401:hover .text1111 {
+  visibility: visible;
+}
+
+
+
+#ull {
+	color:white;
+
+}
+
+#ulll {
+	color:white;
+
+}
+
+#ullll {
+	color:white;
+
+}
+
+#ulllll {
+	color:white;
+
+}
+
+body{
+	background-image: url("https://mewallpaper.com/thumbnail/space/4549-dark-space-free-download-wallpaper-hq.jpg");
+	 background-repeat: no-repeat;
+     background-size: auto;
+}
+.logo {
+  width: 150px;
+  height: 100px;
+  opacity: 0.5;
+}
+
+
+h1{
+	
+
+  font-size: 30px;
+  text-shadow: -1px -1px #eee, 1px 1px #888, -3px 0 4px #000;
+  font-family: sans-serif;
+  color:#ccc;
+  padding:16px;
+  font-weight:lighter;
+  -moz-box-shadow: 2px 2px 6px #888;  
+  -webkit-box-shadow: 2px 2px 6px #FF0000;  
+  box-shadow:8px 8px 8px #FF0000;  
+  text-align:center;
+  display:inline;
+  line-height:92px;
+  background-image:url("https://c4.wallpaperflare.com/wallpaper/273/1/78/colors-boom-dark-background-blast-powder-explosion-hd-wallpaper-preview.jpg");
+
+}
+
+h2 {
+	color: #708090;
+	 font-family: fangsong;
+	font-size: 40px;
+	margin-top: 30px; 
+	text-align: center;
+	opacity: 1
+}
+
+
+#prods {
+  background-color: #d4d4d4a8;
+   border-radius: 20px;
+	color: black ;
+	font-size: 30px; 
+	font-family: : Arial; 
+
+	
+}
+input {
+ color: red;
+ font-family: : Arial; 
+ background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+#pub {
+    margin: 10px 100px 120px 200px; 
+    border-radius: 6px;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 30px
+}
+
+#pub1 {
+    margin: 10px 100px 100px 200px; 
+    border-radius: 6px;
+    max-width: 600px;
+    max-height: 600px;
+    border-radius: 30px
+}
+
+select {
+	 background-color: #dedede30;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: center;
+      font-size: 30px;
+
+}
+
+
+
+.box{
+
+  padding: 30px;
+  width: 350px;
+  height: 250px;
+  margin: 30px;
+  border-radius: 25%;
+
+}
+
+
+.box:hover {
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5); 
+  transform: scale(1.5); 
+};
+
